@@ -1,0 +1,21 @@
+{
+    "version": "4.28.2024092502",
+    "url": "https://qiniu-ecdn.dcloud.net.cn/download/HBuilderX.4.28.2024092502.zip",
+    "homepage": "https://www.dcloud.io/hbuilderx.html",
+    "bin": [
+        "cli.exe"
+    ],
+    "shortcuts": [
+        [
+            "HBuilderX.exe",
+            "HBuilderX"
+        ]
+    ],
+    "checkver": {
+        "url": "https://download1.dcloud.net.cn/hbuilderx/release.json",
+        "jsonpath": "$.win[1].version"
+    },
+    "autoupdate": {
+        "url": "https://qiniu-ecdn.dcloud.net.cn/download/HBuilderX.$version.zip"
+    }
+}
